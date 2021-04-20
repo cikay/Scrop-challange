@@ -1,0 +1,10 @@
+{
+  "language": "Dil",
+  "logout": "Çıkış yap",
+  "login": "Giriş Yap",
+  "home_page": "Burası Anasayfa",
+  "cancel": "İptal",
+  "loginNameInputPlaceHolder": "Ad",
+  "loginEmailInputPlaceHolder": "Email",
+  "loginPasswordInputPlaceHolder": "Şifre"
+}

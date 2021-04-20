@@ -1,0 +1,10 @@
+{
+  "language": "Language",
+  "logout": "Logout",
+  "login": "Login",
+  "home_page": "This home page",
+  "cancel": "Cancel",
+  "loginNameInputPlaceHolder": "Fullname",
+  "loginEmailInputPlaceHolder": "Email",
+  "loginPasswordInputPlaceHolder": "Password"
+}
