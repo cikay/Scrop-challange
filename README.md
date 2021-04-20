@@ -4,7 +4,7 @@
 
 ## Clone repository
 
-```git clone https://github.com/cikay/Scrop-challange.git````
+```git clone https://github.com/cikay/Scrop-challange.git```
 
 ## Go to project directory
 
