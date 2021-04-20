@@ -32,7 +32,7 @@
     "contactUsBtn": "İletişim",
     "homeBtn": "Anasayfa"
   },
-  "leftSideBar": {},
+  "leftSideBar": { "home": "Anasayfa", "contactus": "İletişim" },
   "footer": {
     "text": "Burası Footer"
   },

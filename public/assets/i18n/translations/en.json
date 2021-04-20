@@ -40,7 +40,10 @@
     "contactUsBtn": "Contact Us",
     "homeBtn": "Home"
   },
-  "leftSideBar": {},
+  "leftSideBar": {
+    "home": "Home",
+    "contactus": "Contact us"
+  },
   "footer": {
     "text": "This is footer"
   }
