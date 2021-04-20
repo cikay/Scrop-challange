@@ -54,7 +54,6 @@ function CustomizedForm({
                 onChange={handleChange}
                 placeholder={textarea.placeholder}
                 id={textarea.accessor}
-                defaultValue={textarea.placeholder}
                 className='btn'
                 contentEditable={false}
                 rows={4}
