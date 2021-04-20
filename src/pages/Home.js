@@ -3,7 +3,13 @@ import { useTranslation } from 'react-i18next'
 
 function Home() {
   const { t } = useTranslation()
-  return <div>{t('home_page')}</div>
+  const { text, title } = t('homePage', { returnObjects: true })
+  return (
+    <>
+      <h2>{title}</h2>
+      <p>{text}</p>
+    </>
+  )
 }
 
 export default Home

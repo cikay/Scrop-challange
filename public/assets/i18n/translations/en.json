@@ -1,10 +1,47 @@
 {
-  "language": "Language",
-  "logout": "Logout",
-  "login": "Login",
-  "home_page": "This home page",
-  "cancel": "Cancel",
-  "loginNameInputPlaceHolder": "Fullname",
-  "loginEmailInputPlaceHolder": "Email",
-  "loginPasswordInputPlaceHolder": "Password"
+  "contactUsPage": {
+    "contactus": "Contact Us",
+    "pageText": "Contact us",
+    "form": {
+      "name": "Name",
+      "phoneNumber": "Phone number",
+      "email": "Email",
+      "text": "Your Message...",
+      "country": "Countries",
+      "submitBtnName": "Submit"
+    }
+  },
+  "countries": {
+    "TR": "Turkey",
+    "US": "United States of Amerika",
+    "GB": "United Kingdom",
+    "DE": "Germany",
+    "SE": "Sweden",
+    "KE": "Kenya",
+    "BR": "Brazil",
+    "ZW": "Zimbabwe"
+  },
+  "loginModal": {
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "submitBtn": "Login",
+    "cancelBtn": "Cancel"
+  },
+  "homePage": {
+    "home": "Home",
+    "text": "This home page",
+    "title": "Welcom to Home page"
+  },
+  "rightSideBar": {
+    "languageDropDown": "Language",
+    "logoutBtn": "Logout",
+    "loginBtn": "Login",
+    "contactUsBtn": "Contact Us",
+    "homeBtn": "Home"
+  },
+  "leftSideBar": {},
+  "footer": {
+    "text": "This is footer"
+  }
 }

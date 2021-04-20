@@ -1,10 +1,49 @@
 {
-  "language": "Dil",
-  "logout": "Çıkış yap",
-  "login": "Giriş Yap",
-  "home_page": "Burası Anasayfa",
-  "cancel": "İptal",
-  "loginNameInputPlaceHolder": "Ad",
-  "loginEmailInputPlaceHolder": "Email",
-  "loginPasswordInputPlaceHolder": "Şifre"
+  "loginModal": {
+    "name": "Ad",
+    "email": "Email",
+    "password": "Şifre",
+    "submitBtn": "Giriş yap",
+    "cancelBtn": "İptal"
+  },
+  "homePage": {
+    "home": "Anasayfa",
+    "text": "Burası Anasayfa",
+    "title": "Anasayfaya hoşgeldiniz"
+  },
+  "contactUsPage": {
+    "contactus": "İletişim",
+    "pageText": "Bizimle iletişime geçin",
+    "form": {
+      "name": "İsim",
+      "phoneNumber": "Telefon no",
+      "email": "Email",
+      "text": "Mesajınız...",
+      "placeholder": "Ülkeler",
+      "submitBtnName": "Gönder",
+      "country": "Ülkeler"
+    }
+  },
+  "rightSideBar": {
+    "contactUsBtnText": "İletişim",
+    "languageDropDown": "Dil",
+    "logoutBtn": "Çıkış yap",
+    "loginBtn": "Giriş Yap",
+    "contactUsBtn": "İletişim",
+    "homeBtn": "Anasayfa"
+  },
+  "leftSideBar": {},
+  "footer": {
+    "text": "Burası Footer"
+  },
+  "countries": {
+    "TR": "Türkiye",
+    "US": "Amerika birleşik devletleri",
+    "GB": "İngiltere",
+    "DE": "Almanya",
+    "SE": "İsveç",
+    "KE": "Kenya",
+    "BR": "Brezilya",
+    "ZW": "Zimbabve"
+  }
 }

@@ -1,22 +1,22 @@
 import React, { useState } from 'react'
 import { Card, Button, Form } from 'react-bootstrap'
 import CustomizedModal from './CustomizedModal'
+import CustomizedForm from './CustomizedForm'
 
-const htmlInputTypes = ['text', 'email', 'password']
-export default function ModelFormModal({
+export default function FormModal({
   closeModal,
   show,
   cancelBtnText,
   submitBtnText,
   onSubmit,
-  columns,
+  inputs,
 }) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     password: '',
   })
-
+  console.log('submit btn in form modal', submitBtnText)
   const handleChange = (e) => {
     const { id, value } = e.target
 
@@ -35,40 +35,15 @@ export default function ModelFormModal({
 
   return (
     <CustomizedModal show={show} onHide={closeModal} title={submitBtnText}>
-      <Card className='w-100' style={{ maxWidth: '430px' }}>
-        <Card.Body>
-          <Form onSubmit={handleSubmit}>
-            {columns.map((column) => {
-              console.log('column', column)
-              return (
-                <Form.Group id={column.accessor}>
-                  <Form.Control
-                    required
-                    type={
-                      htmlInputTypes.indexOf(column.accessor) === -1
-                        ? 'text'
-                        : column.accessor
-                    }
-                    id={column.accessor}
-                    placeholder={column.Header}
-                    onChange={handleChange}
-                  />
-                </Form.Group>
-              )
-            })}
-            <Button
-              className='float-right mt-2'
-              variant='primary'
-              type='submit'
-            >
-              {submitBtnText}
-            </Button>
-          </Form>
-          <Button className='mt-3' variant='secondary' onClick={closeModal}>
-            {cancelBtnText}
-          </Button>
-        </Card.Body>
-      </Card>
+      <CustomizedForm
+        inputs={inputs}
+        handleChange={handleChange}
+        handleSubmit={handleSubmit}
+        submitBtnText={submitBtnText}
+      />
+      <Button className='mt-3' variant='secondary' onClick={closeModal}>
+        {cancelBtnText}
+      </Button>
     </CustomizedModal>
   )
 }

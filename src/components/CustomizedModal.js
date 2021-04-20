@@ -2,12 +2,7 @@ import React from 'react'
 import ReactDom from 'react-dom'
 import { Modal } from 'react-bootstrap'
 
-export default function CustomizedModal({
-  title,
-  children,
-  show,
-  onHide,
-}) {
+export default function CustomizedModal({ title, children, show, onHide }) {
   return ReactDom.createPortal(
     <Modal
       show={show}

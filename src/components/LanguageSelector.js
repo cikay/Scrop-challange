@@ -5,8 +5,8 @@ const items = [
   { name: 'Turkish', accessor: 'tr' },
   { name: 'English', accessor: 'en' },
 ]
-const LanguageSelector = () => {
-  const { t, i18n } = useTranslation()
+const LanguageSelector = ({ className, text }) => {
+  const { i18n } = useTranslation()
 
   const changeLanguage = (e) => {
     const value = e.target.getAttribute('value')
@@ -18,9 +18,10 @@ const LanguageSelector = () => {
   return (
     <>
       <CustomizedDropDown
-        btnName={t('language')}
+        btnName={text}
         items={items}
         onClick={changeLanguage}
+        className={className}
       />
     </>
   )

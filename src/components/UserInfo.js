@@ -8,12 +8,8 @@ function UserInfo() {
   const { t } = useTranslation()
 
   const { user, resetUser } = useUserContext()
-
-  const items = [
-    { name: user.email },
-    { name: t('logout'), onclick: resetUser },
-  ]
-
+  const { logoutBtn } = t('rightSideBar', { returnObjects: true })
+  const items = [{ name: user.email }, { name: logoutBtn, onClick: resetUser }]
   return (
     <>
       <CustomizedDropDown btnName={user.name} items={items} />

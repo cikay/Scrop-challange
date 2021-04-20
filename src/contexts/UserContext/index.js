@@ -5,6 +5,7 @@ const useUserContext = () => useContext(UserContext)
 function UserProvider({ children }) {
   const [user, setUser] = useState()
   function resetUser() {
+    console.log('reset user invoked')
     setUser()
   }
 
